@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Recipe Page</title>
-  <!-- Your turn · Recipe page
+    <meta charset="utf-8">
+    <title>Recipe Page</title>
+    <!-- Your turn · Recipe page
        Check your SCREEN against the slide, then count your mains: one.
        header  — the recipe's name, in an h1
        nav     — Jump to ingredients · Steps
@@ -12,20 +13,79 @@
        aside   — a fun fact about the dish
        footer  — your name, the year
        Done early? Put a figure with an img and a figcaption inside the article. -->
-  <style>
-    header  { background: #101A2B; color: white; }
-    nav     { background: #DBEAFE; }
-    main    { background: #F0FDF4; }
-    aside   { background: #FEF3C7; }
-    footer  { background: #E2E8F0; }
-    section { border-left: 4px solid #5ADB8C; padding-left: 10px; }
-    article { border: 2px solid #94A3B8; border-radius: 8px; padding: 6px 12px; }
-  </style>
+    <style>
+        header {
+            background: #101A2B;
+            color: white;
+        }
+
+        nav {
+            background: #DBEAFE;
+        }
+
+        main {
+            background: #F0FDF4;
+        }
+
+        aside {
+            background: #FEF3C7;
+        }
+
+        footer {
+            background: #E2E8F0;
+        }
+
+        section {
+            border-left: 4px solid #5ADB8C;
+            padding-left: 10px;
+        }
+
+        article {
+            border: 2px solid #94A3B8;
+            border-radius: 8px;
+            padding: 6px 12px;
+        }
+    </style>
 </head>
+
 <body>
+    <header>
+        <h1>Grilled Cheese</h1>
+    </header>
+    <nav>
+        <a href="#ingredients">Ingredients</a>·<a href="#steps">Steps</a>
+    </nav>
+    <main>
+        <h2 id="ingredients">Ingredients</h2>
+        <ul>
+            <li>Two loaves of bread</li>
+            <li>Two slices of cheese</li>
+            <li>Two tablespoons of soft butter</li>
+            <li>Any additionally ingredients you wish to add</li>
+        </ul>
+        <h2 id="steps">Steps</h2>
+        <ol>
+            <li>Preheat a pot, pan, or other cooking utensil above a stove</li>
+            <li>Spread the butter on one side of both slices of bread</li>
+            <li>Place one slice of bread in the pan, with the butter side down on the pan. Then, put pn the slice of
+                cheese, any topings you want to add, and the other slice of cheese together. Once that's done, put the
+                last slice of bread on top, with the butter side facing up towards you.</li>
+            <li>Cook over the stove until one side of the grilled cheese is a golden brown color, then flip the grilled
+                cheese and keep cooking until the cheese is melty.</li>
+            <li>Put the grilled cheese on a plate, and after it cools enjoy the grilled cheese.</li>
+        </ol>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-42eWiOLu56-oC3lk7aw1ju9oSyX2IzFyGI0UuJqSmQ&s=10"
+            alt="A grilled cheese cut into two triangles connected by melty cheese strings">
+    </main>
 
-  <!-- build it here -->
-
-
+    <article>
+        <p>I chose the grilled cheese because it is easy to make (I don't really know how to cook anything, but a
+            grilled cheese is simple to make), and it is also delicious.</p>
+    </article>
+    <br>
+    <aside>Fun fact: Americans eat over 2 billion grilled cheeses a year.</aside>
+    <hr>
+    <footer>Anthony Green, 2026</footer>
 </body>
+
 </html>
